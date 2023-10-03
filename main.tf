@@ -13,5 +13,6 @@ provider "azurerm" {
 resource "azurerm_resource_group" "test_rg" {
   name     = "Test_RG"
   location = "West Europe"
+  # Comment From Dharam
 }
   # Configuration options
