@@ -12,8 +12,9 @@ provider "azurerm" {
    features {}
 }
 
-resource "azurerm_resource_group" "sap-rg" 
-{
+resource "azurerm_resource_group" "sap-rg" {
+
+
   name     = "ind-sap-rg-001"
   location = "North Europe"
   # Comment From Dharam
